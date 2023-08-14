@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: palegreen;
+    align-content: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+p {
+    color: white;
+    text-align: center;
+}
+a[id='anchor1'], a[id='anchor2'], a[id='anchor3']
+a {
+    color: white;
+    float: right;
+    text-align: right;
+    margin-right: 20px;
+}
+.social-icon {
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+}
+.my-button {
+    text-align: right;
+    color: green;
+    background-color: lightblue;
+    justify-items: center;
+}
+nav {
+    color: #fff;
+}
+.nav-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+.nav-left .nav-item {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+}
+.launch-btn {
+  background-color: green;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: white;
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 0px;
+    color: green;
+}
+h4 {
+    font-size: 33px;
+    margin-top: 0px;
+    color: white;
+}
+h2 {
+    color: green;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .column {
+    width: 50%;
+  }
+
+  .heading {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .paragraph {
+    margin: 10px 0;
+  }
